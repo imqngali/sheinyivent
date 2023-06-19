@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 	function update() {
 		var Now = new Date(), Finish = new Date();
-		Finish.setHours( 8);
+		Finish.setHours( 23);
 		Finish.setMinutes( 59);
 		Finish.setSeconds( 59);
 		if( Now.getHours() === 23  &&  Now.getMinutes() === 59  &&  Now.getSeconds === 59) {
